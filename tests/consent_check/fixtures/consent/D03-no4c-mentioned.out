@@ -1,0 +1,6 @@
+N1.2  NOTE        line 44: NO4C mentioned, not raised
+N1.2  NOTE        line 50: NO4C mentioned, not raised
+G0.R  NOTE        record_id uniqueness not checked (no --seen)
+----
+P1=PASS P4=PASS P6=PASS P7=PASS G0=NOTE G1=PASS G2=PASS G3=PASS G4=PASS G5=PASS G6=PASS G7=PASS N1=NOTE HL3=PASS 
+VERDICT: PASS (exit 0)

@@ -1,0 +1,4 @@
+# evidence for the settle.py fixture (synthetic)
+F1 settled: the first shot landed (outcome 1)
+F2 settled: the second shot missed (outcome 0)
+# SPDX-License-Identifier: GPL-3.0-or-later

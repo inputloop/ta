@@ -1,0 +1,5 @@
+G0.R  NOTE        record_id uniqueness not checked (no --seen)
+G3.2  FAIL        payload_sha256 does not match the payload (computed e389ae7be46a...)
+----
+P1=PASS P4=PASS P6=PASS P7=PASS G0=NOTE G1=PASS G2=PASS G3=FAIL G4=PASS G5=PASS G6=PASS G7=PASS N1=PASS HL3=PASS 
+VERDICT: FAIL (exit 1) -- G3

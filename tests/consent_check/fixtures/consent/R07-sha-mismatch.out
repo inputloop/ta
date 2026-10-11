@@ -1,0 +1,6 @@
+G0.R  NOTE        record_id uniqueness not checked (no --seen)
+G3.2  FAIL        payload_sha256 does not match the payload (computed 4b932f3295e0...)
+G7.2  FAIL        ssh-keygen -Y verify rejected the signature (Signature verification failed: incorrect signature Could not verify signature. )
+----
+P1=PASS P4=PASS P6=PASS P7=PASS G0=NOTE G1=PASS G2=PASS G3=FAIL G4=PASS G5=PASS G6=PASS G7=FAIL N1=PASS HL3=PASS 
+VERDICT: FAIL (exit 1) -- G3 G7

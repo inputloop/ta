@@ -1,0 +1,5 @@
+G0.R  NOTE        record_id uniqueness not checked (no --seen)
+HL3.1 PARK        prohibited_category_decision.rationale: third-party email address in the record (value withheld)
+----
+P1=PASS P4=PASS P6=PASS P7=PASS G0=NOTE G1=PASS G2=PASS G3=PASS G4=PASS G5=PASS G6=PASS G7=PASS N1=PASS HL3=PARK 
+VERDICT: PARK (exit 2) -- CLAUD_QA_HOLD -- HL3

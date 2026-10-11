@@ -1,0 +1,7 @@
+CARD='RUNCARD-p1b-needfail'
+PURPOSE='a card whose NEED does not hold'
+STEPS='one'
+one_about='never runs'
+one_done() { false; }
+one_run() { :; }
+facts() { need 'answer' 'no' 'yes'; }

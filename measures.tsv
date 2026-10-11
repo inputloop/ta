@@ -1,0 +1,12 @@
+measure	unit	denom	dir	vol	basis	inputs	tol_pct	fresh	note
+guess_delta	pct	per-guess	down-good	non-volumetric	receipted	guess,actual	5	2026-08-28	absolute gap between beat-1 guess and settled actual
+guess_calib	ratio	per-guess	up-good	non-volumetric	receipted	guess_band,actual	5	2026-08-28	share of guesses whose actual landed inside the stated band
+first_pass_exit	ratio	per-loop	up-good	non-volumetric	counted	exit_met,loops	5	2026-08-28	loops meeting exit criteria without a second try
+refusal_rate	ratio	per-run	up-good	non-volumetric	counted	refusals,planted_faults	5	2026-08-28	share of planted faults a checker correctly refused
+receipt_reach	ratio	per-claim	up-good	non-volumetric	receipted	claims_rederivable,claims_loadbearing	5	2026-08-28	share of load-bearing claims a stranger can re-derive
+risk_priced	ratio	per-concern	up-good	non-volumetric	counted	risks_priced,concerns_named	5	2026-08-28	CONCERNs promoted to RISK with both factors and a receipt
+tokens	count	-	down-good	volumetric	counted	-	5	2026-08-28	FENCED — cost input only; barred as a quality measure
+wallclock	hour	-	down-good	volumetric	counted	-	5	2026-08-28	FENCED — cost input only; paired with first_pass_exit
+bytes_written	count	-	up-good	non-volumetric	counted	-	5	2026-08-28	PLANTED FAILURE — mislabelled; must FAIL Probe A
+constant_seven	count	-	up-good	non-volumetric	counted	-	5	2026-08-28	PLANTED FAILURE — inert; must FAIL Probe B
+effort_score	ratio	-	up-good	derived	counted	tokens,wallclock	5	2026-08-28	PLANTED FAILURE — semantic name, volumetric closure; must FAIL

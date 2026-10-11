@@ -1,0 +1,9 @@
+id	claim	rung	S	P	U	F	face_kind	basis
+B-CABLE	Labelling ends prevents most rework	1	3	4	3	4	read	3 of 5 prior rebuilds logged; the cause is legible from one end of the run
+B-SCOPE	Scope will expand about two items	0	H	H	M	M	read	his own named failure mode; no instrument beyond judgement, and it says so
+B-SURFACE	The surface will support full pair-notes	1	4	4	2	2	count	inventory of what fits on the bench; not yet a read of whether two can write
+B-SLIP	Sunday movie-night deadline holds	1	3	3	3	3	read	two-day window, three helpers, holiday Monday as slack
+B-DELICATE	Dee lands the delicate bits Sunday	2	2	2	4	5	read	long practice, one incident in ~10 comparable moves
+B-EMPYREAN	Left side usable Monday morning	1	4	4	2	2	read	rebuilt last by plan; absorbs any slip
+B-BAD	Ordinal row at the wrong rung	2	H	M	H	M	read	planted failure: rung 2 demands measured numbers
+B-ZERO	Ungrounded claim	1	4	4	0	3	read	planted failure: UF is zero

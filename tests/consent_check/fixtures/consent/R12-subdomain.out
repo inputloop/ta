@@ -1,0 +1,6 @@
+G0.R  NOTE        record_id uniqueness not checked (no --seen)
+G4.3  FAIL        identity_urls are not on two independent registrable domains
+G4.4  NOT-CHECKED fetch evidence covers 1 independent source(s), need 2/2
+----
+P1=PASS P4=PASS P6=PASS P7=PASS G0=NOTE G1=PASS G2=PASS G3=PASS G4=FAIL G5=PASS G6=PASS G7=PASS N1=PASS HL3=PASS 
+VERDICT: FAIL (exit 1) -- G4

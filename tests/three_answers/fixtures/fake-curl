@@ -1,0 +1,7 @@
+#!/bin/sh
+# fake curl for vt-hashcheck: writes $FAKE_VT_BODY (a file) to the -o target; never touches the network.
+out=""; while [ $# -gt 0 ]; do [ "$1" = -o ] && { out=$2; shift; }; shift; done
+[ -n "$out" ] || exit 0
+if [ -n "${FAKE_VT_BODY:-}" ] && [ -f "$FAKE_VT_BODY" ]; then cat "$FAKE_VT_BODY" > "$out"; else : > "$out"; fi
+exit 0
+# SPDX-License-Identifier: GPL-3.0-or-later

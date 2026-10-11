@@ -1,0 +1,54 @@
+# Technology Architecture — project configuration
+# (C) 2026 Corwin Brust <corwin@bru.st>. Documentation: CC BY 4.0; code: GPL-3.0-or-later.
+# Developed and tested with the help of Bryant Frankford and B.K. Graphics (bkgraphics.com).
+
+project:
+  name: "Technology Architecture"
+  focus: "Produce and maintain a portable, host-agnostic AI operating-model kit, and hub the localized instances derived from it"
+  worked_instance: "Empyrean (goempyrean.com)"
+  keeper: "Corwin"
+  started: "2026-08-20"
+  updated: "2026-08-28"
+
+role: "hub of pointers — holds the ledger, not the models; each instance stays authoritative for itself"
+
+deliverables:
+  ledger: "COMMENT-ANCHORS.md"          # comment -> work -> carrier -> status
+  drift: "DRIFT.log"                    # hub checkpoints only
+  shippable: "operating-model-BASELINE.md"   # legacy 2026-08-22 copy; superseded by the t0 kit (see instances)
+  working_model: "operating-model.md"
+
+instances:
+  - path: "H:/tech-arch-org-model-t0"
+    role: "kit factory"
+    version: "1.0 (cut, signed, tagged 2026-08-24)"
+    identity: "d0843f81502ed3a9e221280f03304a884612c133c340e690a8dc59e61c787a7d"
+    ceremony: "PGP sign + tag + ship.sh method-clean gate"
+  - path: "H:/tech-arch-org-model-t1"
+    role: "localized instance — FSF/GNU front door"
+    version: "BASELINE localized from v0.9; SEED v0.4"
+    identity: "18a7a42e48f1d5c8209294e5eebbbbf71719c85ce3caf74d7c91c1d6d8c2ff76"
+    ceremony: "sha256 sidecar only (BASELINE Part E, by design)"
+  - path: "H:/tech-arch-org-model-t2"
+    role: "localized instance — Beyond Conventions"
+    version: "derived from e8561e59...92d98a; org is canonical, md/csv are build outputs"
+    ceremony: "verify by content; no sidecar"
+
+governs_in_order:
+  - "keeper direction + host guidance in force"
+  - "this project's own files"
+  - "AI default"
+
+grounding: "outside-in from the host's public identity; prefer the host's own canon"
+
+license:
+  documentation: "CC BY 4.0"
+  code: "GPL-3.0-or-later"
+  attribution: "Corwin Brust <corwin@bru.st>"
+  set: "2026-08-28 (supersedes the earlier 'unset by design')"
+  additional_grant: "Empyrean — see tech-arch-org-model-t0/t0-kit/LICENSE.md"
+
+notes:
+  - "No confidential material; public sources only."
+  - "The kit itself claims no dependence on cryptographic signing (Part E); t0 signs anyway. Two regimes, both principled — say which one a report is quoting."
+  - "Prior drafts retained as SUPERSEDED-* for lineage; not governing; left unstamped so their bytes stay as recorded."

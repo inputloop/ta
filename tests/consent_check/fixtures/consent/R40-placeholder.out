@@ -1,0 +1,6 @@
+G0    FAIL        grant.target_host: unfilled placeholder
+G0.R  NOTE        record_id uniqueness not checked (no --seen)
+G1    NOTE        1 placeholder value(s) in G1's scope not scanned (already FAIL under G0)
+----
+P1=PASS P4=PASS P6=PASS P7=PASS G0=FAIL G1=NOTE G2=PASS G3=PASS G4=PASS G5=PASS G6=PASS G7=PASS N1=PASS HL3=PASS 
+VERDICT: FAIL (exit 1) -- G0

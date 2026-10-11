@@ -1,0 +1,6 @@
+id	outcome	receipt
+F1	1	evidence.txt:2
+F2	0	fx:evidence.txt#L3
+F3	unsettled	
+F4	1	
+# SPDX-License-Identifier: GPL-3.0-or-later

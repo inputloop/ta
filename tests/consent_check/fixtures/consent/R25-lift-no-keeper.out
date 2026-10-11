@@ -1,0 +1,5 @@
+G0.R  NOTE        record_id uniqueness not checked (no --seen)
+G6.6  NOT-CHECKED a park-lift is present; --keeper not given, so whose lift it is was not checked
+----
+P1=PASS P4=PASS P6=PASS P7=PASS G0=NOTE G1=PASS G2=PASS G3=PASS G4=PASS G5=PASS G6=NOT-CHECKED G7=PASS N1=PASS HL3=PASS 
+VERDICT: NOT CHECKED (exit 77) -- G6

@@ -1,0 +1,6 @@
+G0.R  NOTE        record_id uniqueness not checked (no --seen)
+G1.4  NOTE        agent.session is the template's bearer value ("any session presenting this record")
+G1.3  NOTE        grant.irreversible_parts: "any" in exclusion context -- not a grant
+----
+P1=PASS P4=PASS P6=PASS P7=PASS G0=NOTE G1=NOTE G2=PASS G3=PASS G4=PASS G5=PASS G6=PASS G7=PASS N1=PASS HL3=PASS 
+VERDICT: PASS (exit 0)

@@ -1,0 +1,8 @@
+id	name	occr_pct	occr_basis	cost_usd	cost_unit	cost_basis	time_hr	receipt
+R-CABLE	Cable bundle mis-seated, device unreachable after rebuild	60	3 of the last 5 rebuilds per DRIFT.log 2026-08-22/23/24; unlabelled runs are the common factor	0	-	no parts cost; 3h re-tracing at TIME_RATE	3	DRIFT.log entries; the unlabelled-run count taken at teardown start
+R-DELICATE	A delicate component damaged in the move	10	1 damaging incident recalled across ~10 comparable moves; Dee handles this class on Sunday by long practice	400	-	replacement of one mid-range component, whole dollars	2	prior incident to be cited by Corwin; cost is a stated replacement estimate, not a quote
+R-SLIP	Rebuild does not land by Sunday movie night	35	Two-day window, three helpers, one hard deadline; comparable two-day rebuilds ran long about a third of the time	0	-	no cash cost; 4h spillover into Monday at TIME_RATE	4	the 'all back full for movies' target as stated 2026-08-28
+R-EMPYREAN	Empyrean left-side workstation not usable Monday morning	20	Left side is rebuilt last by plan, so it absorbs any slip; slip probability above, discounted for the Monday holiday	0	-	2h of work time at TIME_RATE; no fee	2	plan ordering in LAB-TEARDOWN-plan.md; holiday check on the 3-day weekend
+R-SCOPE	Teardown expands into reorganizing what was not in the plan	50	Named by Corwin himself as his standing failure mode (restart-rather-than-finish); observed across the audio-project lineage	0	-	6h of weekend time at TIME_RATE	6	CORWIN.md S3; the plan's own out-of-scope list
+C-DUST	Dust and thermal state of the towers after the move	UNMEASURED	not yet estimated	UNMEASURED	-	-	-	-
+C-KIDS	Extra hands available Saturday if needed	UNMEASURED	depends on the weekend; not counted	0	-	no expense identified	-	-

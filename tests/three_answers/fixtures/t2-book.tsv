@@ -1,0 +1,3 @@
+rid	kind	dir	state	opened	last	party	amount	cur	src	hold	gist
+BC-101	inquiry-unanswered	IN	OPEN	2026-09-01	2026-09-10	customer/synthetic-a	-	-	1a09baa99c0042dd	-	a synthetic inquiry awaiting an answer
+BC-102	vendor-invoice	OUT	CLOSED	2026-08-01	2026-08-15	vendor/synthetic-b	120	USD	said:2026-09-16	-	a synthetic invoice that was paid

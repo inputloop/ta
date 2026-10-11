@@ -1,0 +1,5 @@
+G0.R  NOTE        record_id uniqueness not checked (no --seen)
+G1.6  NOTE        prohibited_category_decision.rationale: urgency/authority framing -- ignored for the verdict (strip the urgency and ask again)
+----
+P1=PASS P4=PASS P6=PASS P7=PASS G0=NOTE G1=NOTE G2=PASS G3=PASS G4=PASS G5=PASS G6=PASS G7=PASS N1=PASS HL3=PASS 
+VERDICT: PASS (exit 0)

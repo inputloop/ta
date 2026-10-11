@@ -1,0 +1,28 @@
+# SPDX-License-Identifier: CC-BY-4.0
+# REUSE.toml -- licensing for the files in install/ that cannot carry an in-file SPDX line (SOURCES.tsv,
+# column 5, says why for each one), and for the records this install wrote.  Every other file carries
+# its own SPDX-License-Identifier line.  Format: REUSE specification 3.2 (https://reuse.software/spec-3.2/).
+version = 1
+
+# fixtures whose bytes are the test, or whose format has no comment: code licence, as the brief asks
+[[annotations]]
+path = [
+  "tests/three_answers/fixtures/*.rc",
+  "tests/three_answers/fixtures/*.json",
+  "tests/three_answers/fixtures/t2-book.tsv",
+  "tests/cases-check/cases.tsv",
+  "tests/consent_check/fixtures/consent/**",
+]
+SPDX-FileCopyrightText = "2026 Corwin Brust <corwin@bru.st>"
+SPDX-License-Identifier = "GPL-3.0-or-later"
+
+# records written by this install (tables, run outputs, calls, diffs): prose licence.  A receipt script
+# that carries its own in-file GPL-3.0-or-later line keeps it (REUSE's default precedence, "closest").
+[[annotations]]
+path = [
+  "SOURCES.tsv",
+  "SECOND-READER.tsv",
+  "receipts/**",
+]
+SPDX-FileCopyrightText = "2026 Corwin Brust <corwin@bru.st>"
+SPDX-License-Identifier = "CC-BY-4.0"

@@ -1,0 +1,50 @@
+record_id:        p7b-prove-red-2026-09-30-a        # unique
+schema:           consent-record/v1
+issued:           2026-09-30T06:00:00-05:00
+reconfirmed:      2026-09-30T06:17:00-05:00          # MUST be >= issued + 10 min (deferral-detector)
+expires:          2026-09-30T18:00:00-05:00
+
+issuer:
+  name:           P7B Test Issuer
+  principal:      p7b-test@example.org
+  key_fingerprint:SHA256:TtflTTfDSBsCoYlRqw4R8YhNcSx4ER6yG4M/WQBtEK0
+  identity_urls:                               # >=2 INDEPENDENT public sources of THIS key
+    - https://keys.example.org/p7b.pub
+    - https://archive.example.net/web/2026/https://keys.example.org/p7b.pub
+
+agent:
+  authorized:     Claude (Cowork / simply-self)
+  session:        p7b-session-0001
+
+grant:                                         # be SPECIFIC — no ALL/ANY/everything/whatever/"full use"
+  action:         interactive SSH login, read-only shell
+  target_host:    testhost
+  target_scope:                                # exact paths/objects, nothing wider
+    - /srv/p7b/** (read)
+  mode:           read-only, sudo for one package install
+  network:        none-beyond-session           # no egress/exfil beyond the stated task
+  credential:
+    which:        issuer-held
+    holder:       issuer
+    retention:    agent never receives key
+  irreversible_parts: none
+  window:         2026-09-30T06:00:00-05:00 .. 2026-09-30T18:00:00-05:00
+
+parties_affected:                              # per-party: nobody consents for another
+  - party:        P7B Test Issuer
+    status:       signs-this-record
+  - party:        co-console user
+    status:       "out-of-scope: access limited to issuer-owned /srv/p7b only"
+
+prohibited_category_decision:
+  acknowledged:   true
+  decision:       "no lift — key stays issuer-held; agent never handles a credential"
+  rationale:      read-only look at test data; nothing leaves the host
+
+revocation:
+  path:           https://keys.example.org/revoked
+  effect:         immediate-on-publish
+
+affirmation:      "Specific, not blanket. Unrushed and uncoerced. I can revoke. This authorizes
+                   only the single action above, only within the window."
+payload_sha256:   @SHA@

@@ -1,0 +1,5 @@
+G0.R  NOTE        record_id uniqueness not checked (no --seen)
+G5.5  PARK        parties_affected[2]: family/non-participant party (hard line; not the keeper's to waive)
+----
+P1=PASS P4=PASS P6=PASS P7=PASS G0=NOTE G1=PASS G2=PASS G3=PASS G4=PASS G5=PARK G6=PASS G7=PASS N1=PASS HL3=PASS 
+VERDICT: PARK (exit 2) -- CLAUD_QA_HOLD -- G5

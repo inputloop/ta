@@ -1,0 +1,6 @@
+G0    FAIL        expires: missing
+G0.R  NOTE        record_id uniqueness not checked (no --seen)
+G2    SKIPPED     issued/reconfirmed/expires not all usable; freshness not evaluated (see G0/G2.1)
+----
+P1=PASS P4=PASS P6=PASS P7=PASS G0=FAIL G1=PASS G2=SKIPPED G3=PASS G4=PASS G5=PASS G6=PASS G7=PASS N1=PASS HL3=PASS 
+VERDICT: FAIL (exit 1) -- G0

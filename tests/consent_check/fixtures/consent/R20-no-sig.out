@@ -1,0 +1,5 @@
+G0.R  NOTE        record_id uniqueness not checked (no --seen)
+G7.4  NOT-CHECKED signature not verified (no --sig/--allowed-signers)
+----
+P1=PASS P4=PASS P6=PASS P7=PASS G0=NOTE G1=PASS G2=PASS G3=PASS G4=PASS G5=PASS G6=PASS G7=NOT-CHECKED N1=PASS HL3=PASS 
+VERDICT: NOT CHECKED (exit 77) -- G7

@@ -1,0 +1,17 @@
+measure	probe	before	after	note
+guess_delta	A	18	18	doubled the write-up; guess and actual unchanged
+guess_delta	B	18	9	same volume, better-calibrated guess (down-good)
+guess_calib	A	0.60	0.60	doubled output, same guesses
+guess_calib	B	0.60	0.75	same volume, three more guesses landed in band
+first_pass_exit	A	0.50	0.50	doubled prose, same number of second tries
+first_pass_exit	B	0.50	0.67	same volume, one fewer loop needed a second try
+refusal_rate	A	0.80	0.80	doubled run length, same planted faults caught
+refusal_rate	B	0.80	1.00	same volume, checker now catches the fault it missed
+receipt_reach	A	0.70	0.70	doubled prose that is not load-bearing
+receipt_reach	B	0.70	0.85	same volume, three claims gained citable receipts
+risk_priced	A	0.40	0.40	doubled the plan text, same concerns priced
+risk_priced	B	0.40	0.60	same volume, two concerns gained both factors
+bytes_written	A	1000	2000	doubled the artifact with no change in outcome
+bytes_written	B	1000	1000	outcome improved, volume unchanged
+constant_seven	A	7	7	volume doubled
+constant_seven	B	7	7	outcome improved

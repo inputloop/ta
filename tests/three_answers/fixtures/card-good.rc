@@ -1,0 +1,7 @@
+CARD='RUNCARD-p1b-fixture'
+PURPOSE='a one-step card whose step is already done'
+STEPS='one'
+one_about='touch a marker file'
+one_done() { [ -f "$W/marker" ]; }
+one_run() { : > "$W/marker"; }
+facts() { fact 'shell' 'sh'; }
