@@ -1,0 +1,26 @@
+# SPDX-FileCopyrightText: 2026 Corwin Brust <corwin@bru.st> and Contributors
+# SPDX-License-Identifier: GPL-3.0-or-later OR LGPL-3.0-or-later
+# Written by Mentat (for Corwin; claude-opus-5-5), 2026-10-12. Every step runs a check this repository
+# already carries, as its README says to run it; a step that cannot run here says so instead of passing.
+name: check
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: check-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  floor:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: The baseline's hashes (verified, drifted, orphaned)
+        run: sh CHECK-baseline.sh
+      - name: Every floor tool's own self-test (77 = could not run here, said so)
+        run: |
+          sh bin/floor-selftest.sh; rc=$?
+          [ $rc -eq 0 ] || [ $rc -eq 77 ] || exit $rc
