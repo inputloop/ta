@@ -17,7 +17,7 @@ jobs:
   floor:
     runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: The baseline's hashes (verified, drifted, orphaned)
         run: sh CHECK-baseline.sh
       - name: Every floor tool's own self-test (77 = could not run here, said so)
