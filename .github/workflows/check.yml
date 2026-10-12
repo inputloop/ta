@@ -22,5 +22,5 @@ jobs:
         run: sh CHECK-baseline.sh
       - name: Every floor tool's own self-test (77 = could not run here, said so)
         run: |
-          sh bin/floor-selftest.sh; rc=$?
+          rc=0; sh bin/floor-selftest.sh || rc=$?
           [ $rc -eq 0 ] || [ $rc -eq 77 ] || exit $rc
