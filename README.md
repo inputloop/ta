@@ -5,9 +5,15 @@ kit**: a single file an operator drops into a new project/session so an AI groun
 itself in *that host's* public identity and prefers the host's own canon.
 
 ## Files
-- `operating-model.md` — the governing working model (worked instance: Empyrean).
-- `operating-model-BASELINE.md` — **the shippable single file.** Self-contained,
-  filename-free, identified by the SHA-256 of its bytes. This is what you hand out.
+- `AGENTS.md` — **the shippable single file**: the operating model, 1.0.52 (until the keeper
+  blesses it, `operating-model-BASE.md` 1.0.51 governs). Self-contained, identified by the
+  SHA-256 of its bytes (`AGENTS.md.sha256`). This is what you hand out.
+- `RECIPE.org` — the front door and the build: what the project makes, how, and the check that
+  the recipe and the project agree (`sh bin/recipe.sh check`). Start here.
+- `operating-model.md` — the governing working model of the Empyrean instance.
+- `operating-model-BASE.md` (1.0.51), `operating-model-BASE-1.0.60.md` (a draft, never blessed),
+  `operating-model-BASELINE.md` (the 2026-08-22 copy) and `operating-model-CORWIN-ORG.md` — the
+  models before `AGENTS.md`, kept as they were, as lineage.
 - `COMMENT-ANCHORS.md` — the hub ledger: Corwin's comments traced to the work they
   authorized and the file that carries it. Newest comment governs; nothing signed
   is rewritten.
@@ -31,8 +37,9 @@ itself in *that host's* public identity and prefers the host's own canon.
   - `exp-2026-10-22-floor-ladder/`: the run behind it. Read `RESULTS.md`; check with `sh check.sh --prove-red`.
 
 ## How to use the shippable
-Take `operating-model-BASELINE.md` into a new project/session and pair it with a
-minimal instruction — nothing more is needed. Recommended minimal use-prompt:
+Put `AGENTS.md` at the top of a new project (many AI tools read that name on their own), or
+attach it to a session, and pair it with a minimal instruction — nothing more is needed.
+Recommended minimal use-prompt:
 
 > Start a project to help my team at [organization]. Read the attached operating
 > model and work by it. First, ground yourself outside-in: find our organization's

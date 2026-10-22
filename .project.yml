@@ -8,14 +8,16 @@ project:
   worked_instance: "Empyrean (goempyrean.com)"
   keeper: "Corwin"
   started: "2026-08-20"
-  updated: "2026-08-28"
+  updated: "2026-10-22"
 
 role: "hub of pointers — holds the ledger, not the models; each instance stays authoritative for itself"
 
 deliverables:
   ledger: "COMMENT-ANCHORS.md"          # comment -> work -> carrier -> status
   drift: "DRIFT.log"                    # hub checkpoints only
-  shippable: "operating-model-BASELINE.md"   # legacy 2026-08-22 copy; superseded by the t0 kit (see instances)
+  shippable: "AGENTS.md"                     # 1.0.52, built from RECIPE.org; 1.0.51 governs until blessed
+  recipe: "RECIPE.org"                       # project -> RECIPE -> project; sh bin/recipe.sh check
+  lineage: "operating-model-BASELINE.md (2026-08-22), operating-model-BASE.md (1.0.51), operating-model-BASE-1.0.60.md (unblessed draft)"
   working_model: "operating-model.md"
 
 instances:
