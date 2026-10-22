@@ -1,0 +1,114 @@
+claude-haiku	A	17	16	OK 6/6	RED 5/6	NC 5/5	unparsed 0
+claude-haiku	B	17	17	OK 6/6	RED 6/6	NC 5/5	unparsed 0
+claude-haiku	C	17	17	OK 6/6	RED 6/6	NC 5/5	unparsed 0
+claude-sonnet	A	17	16	OK 6/6	RED 5/6	NC 5/5	unparsed 0
+claude-sonnet	B	17	17	OK 6/6	RED 6/6	NC 5/5	unparsed 0
+claude-sonnet	C	17	17	OK 6/6	RED 6/6	NC 5/5	unparsed 0
+ROW	claude-haiku	A	C01	OK	OK	right
+ROW	claude-haiku	A	C02	OK	OK	right
+ROW	claude-haiku	A	C03	RED	RED	right
+ROW	claude-haiku	A	C04	NOT CHECKED	NOT CHECKED	right
+ROW	claude-haiku	A	C05	NOT CHECKED	NOT CHECKED	right
+ROW	claude-haiku	A	C06	NOT CHECKED	NOT CHECKED	right
+ROW	claude-haiku	A	C07	RED	RED	right
+ROW	claude-haiku	A	C08	OK	OK	right
+ROW	claude-haiku	A	C09	RED	RED	right
+ROW	claude-haiku	A	C10	OK	OK	right
+ROW	claude-haiku	A	C11	OK	OK	right
+ROW	claude-haiku	A	C12	RED	RED	right
+ROW	claude-haiku	A	C13	OK	OK	right
+ROW	claude-haiku	A	C14	NOT CHECKED	NOT CHECKED	right
+ROW	claude-haiku	A	C15	NOT CHECKED	NOT CHECKED	right
+ROW	claude-haiku	A	C16	RED	OK	WRONG
+ROW	claude-haiku	A	C17	RED	RED	right
+ROW	claude-haiku	B	C01	OK	OK	right
+ROW	claude-haiku	B	C02	OK	OK	right
+ROW	claude-haiku	B	C03	RED	RED	right
+ROW	claude-haiku	B	C04	NOT CHECKED	NOT CHECKED	right
+ROW	claude-haiku	B	C05	NOT CHECKED	NOT CHECKED	right
+ROW	claude-haiku	B	C06	NOT CHECKED	NOT CHECKED	right
+ROW	claude-haiku	B	C07	RED	RED	right
+ROW	claude-haiku	B	C08	OK	OK	right
+ROW	claude-haiku	B	C09	RED	RED	right
+ROW	claude-haiku	B	C10	OK	OK	right
+ROW	claude-haiku	B	C11	OK	OK	right
+ROW	claude-haiku	B	C12	RED	RED	right
+ROW	claude-haiku	B	C13	OK	OK	right
+ROW	claude-haiku	B	C14	NOT CHECKED	NOT CHECKED	right
+ROW	claude-haiku	B	C15	NOT CHECKED	NOT CHECKED	right
+ROW	claude-haiku	B	C16	RED	RED	right
+ROW	claude-haiku	B	C17	RED	RED	right
+ROW	claude-haiku	C	C01	OK	OK	right
+ROW	claude-haiku	C	C02	OK	OK	right
+ROW	claude-haiku	C	C03	RED	RED	right
+ROW	claude-haiku	C	C04	NOT CHECKED	NOT CHECKED	right
+ROW	claude-haiku	C	C05	NOT CHECKED	NOT CHECKED	right
+ROW	claude-haiku	C	C06	NOT CHECKED	NOT CHECKED	right
+ROW	claude-haiku	C	C07	RED	RED	right
+ROW	claude-haiku	C	C08	OK	OK	right
+ROW	claude-haiku	C	C09	RED	RED	right
+ROW	claude-haiku	C	C10	OK	OK	right
+ROW	claude-haiku	C	C11	OK	OK	right
+ROW	claude-haiku	C	C12	RED	RED	right
+ROW	claude-haiku	C	C13	OK	OK	right
+ROW	claude-haiku	C	C14	NOT CHECKED	NOT CHECKED	right
+ROW	claude-haiku	C	C15	NOT CHECKED	NOT CHECKED	right
+ROW	claude-haiku	C	C16	RED	RED	right
+ROW	claude-haiku	C	C17	RED	RED	right
+ROW	claude-sonnet	A	C01	OK	OK	right
+ROW	claude-sonnet	A	C02	OK	OK	right
+ROW	claude-sonnet	A	C03	RED	RED	right
+ROW	claude-sonnet	A	C04	NOT CHECKED	NOT CHECKED	right
+ROW	claude-sonnet	A	C05	NOT CHECKED	NOT CHECKED	right
+ROW	claude-sonnet	A	C06	NOT CHECKED	NOT CHECKED	right
+ROW	claude-sonnet	A	C07	RED	RED	right
+ROW	claude-sonnet	A	C08	OK	OK	right
+ROW	claude-sonnet	A	C09	RED	RED	right
+ROW	claude-sonnet	A	C10	OK	OK	right
+ROW	claude-sonnet	A	C11	OK	OK	right
+ROW	claude-sonnet	A	C12	RED	RED	right
+ROW	claude-sonnet	A	C13	OK	OK	right
+ROW	claude-sonnet	A	C14	NOT CHECKED	NOT CHECKED	right
+ROW	claude-sonnet	A	C15	NOT CHECKED	NOT CHECKED	right
+ROW	claude-sonnet	A	C16	RED	OK	WRONG
+ROW	claude-sonnet	A	C17	RED	RED	right
+ROW	claude-sonnet	B	C01	OK	OK	right
+ROW	claude-sonnet	B	C02	OK	OK	right
+ROW	claude-sonnet	B	C03	RED	RED	right
+ROW	claude-sonnet	B	C04	NOT CHECKED	NOT CHECKED	right
+ROW	claude-sonnet	B	C05	NOT CHECKED	NOT CHECKED	right
+ROW	claude-sonnet	B	C06	NOT CHECKED	NOT CHECKED	right
+ROW	claude-sonnet	B	C07	RED	RED	right
+ROW	claude-sonnet	B	C08	OK	OK	right
+ROW	claude-sonnet	B	C09	RED	RED	right
+ROW	claude-sonnet	B	C10	OK	OK	right
+ROW	claude-sonnet	B	C11	OK	OK	right
+ROW	claude-sonnet	B	C12	RED	RED	right
+ROW	claude-sonnet	B	C13	OK	OK	right
+ROW	claude-sonnet	B	C14	NOT CHECKED	NOT CHECKED	right
+ROW	claude-sonnet	B	C15	NOT CHECKED	NOT CHECKED	right
+ROW	claude-sonnet	B	C16	RED	RED	right
+ROW	claude-sonnet	B	C17	RED	RED	right
+ROW	claude-sonnet	C	C01	OK	OK	right
+ROW	claude-sonnet	C	C02	OK	OK	right
+ROW	claude-sonnet	C	C03	RED	RED	right
+ROW	claude-sonnet	C	C04	NOT CHECKED	NOT CHECKED	right
+ROW	claude-sonnet	C	C05	NOT CHECKED	NOT CHECKED	right
+ROW	claude-sonnet	C	C06	NOT CHECKED	NOT CHECKED	right
+ROW	claude-sonnet	C	C07	RED	RED	right
+ROW	claude-sonnet	C	C08	OK	OK	right
+ROW	claude-sonnet	C	C09	RED	RED	right
+ROW	claude-sonnet	C	C10	OK	OK	right
+ROW	claude-sonnet	C	C11	OK	OK	right
+ROW	claude-sonnet	C	C12	RED	RED	right
+ROW	claude-sonnet	C	C13	OK	OK	right
+ROW	claude-sonnet	C	C14	NOT CHECKED	NOT CHECKED	right
+ROW	claude-sonnet	C	C15	NOT CHECKED	NOT CHECKED	right
+ROW	claude-sonnet	C	C16	RED	RED	right
+ROW	claude-sonnet	C	C17	RED	RED	right
+AGREE	claude-haiku	A	16/17
+AGREE	claude-haiku	B	17/17
+AGREE	claude-haiku	C	17/17
+AGREE	claude-sonnet	A	16/17
+AGREE	claude-sonnet	B	17/17
+AGREE	claude-sonnet	C	17/17

@@ -25,6 +25,11 @@ itself in *that host's* public identity and prefers the host's own canon.
   - `DESIGN-2026-09-30-experiment-whose-plants-count.md`: an experiment plan.
   - `bin/floor-selftest.sh` and the floor tools (`README-floor-tools.md`). `turn-2026-09-30/` holds the full record.
 
+- *Added 2026-10-22 (new records; nothing above was changed):*
+  - `GUIDE-2026-10-22-techniques-by-reader.md`: twelve techniques for the kit, by kind of AI reader (paste-only,
+    small local, capable without tools, agentic), each with what would show it wrong.
+  - `exp-2026-10-22-floor-ladder/`: the run behind it. Read `RESULTS.md`; check with `sh check.sh --prove-red`.
+
 ## How to use the shippable
 Take `operating-model-BASELINE.md` into a new project/session and pair it with a
 minimal instruction — nothing more is needed. Recommended minimal use-prompt:
