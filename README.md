@@ -56,7 +56,7 @@ files; (3) the AI default. No confidential material; public sources only.
 ## License
 Documentation and prose: **CC BY 4.0**. Source code (scripts and tooling):
 **GPL-3.0-or-later**. Required attribution: Corwin Brust &lt;corwin@bru.st&gt;.
-Full terms as stated in `tech-arch-org-model-t0/t0-kit/LICENSE.md`.
+Full texts: `LICENSE` (CC BY 4.0, also in `LICENSES/CC-BY-4.0.txt`) and `LICENSES/GPL-3.0-or-later.txt`.
 
 ---
 
